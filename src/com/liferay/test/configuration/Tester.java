@@ -12,10 +12,8 @@ public class Tester {
 		ComponentProperties props = conf.getProperties();
 
 		String name = props.getString("tester.name");
-		int age = 28;
-		
-		System.out.println("Tester's name and age: " + name + age);
-		
+
+		System.out.println("Tester name: " + name);
 	}
 
 }
